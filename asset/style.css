@@ -102,6 +102,34 @@ header{
     font-weight: 300;
     font-style: normal;
 }
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-track {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    scroll-snap-align: center;
+  }
+  
+  .carousel-item img {
+    width: 50%;
+    height: auto;
+    display: block;
+    }
 footer{
     background-color: blueviolet;
 }
