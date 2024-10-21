@@ -41,7 +41,10 @@ header{
     text-decoration: none;
 }
 main{
-    ;
+    background-image: url(../asset/img/imagen.main.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 footer{
     background-color: blueviolet;
@@ -53,6 +56,8 @@ footer{
     justify-content: center;
     height: 1.5rem;
     align-items: center;
+    width: auto;
+    background-position: center;
 }
 @media(min-width: 576px){
     .grid-container{
